@@ -4,29 +4,43 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <header>
         <title>Videojuegos</title>
-        <h1>Videojuegos</h1>
-        <img src="./control.jpg" />
-        <span>Inicio</span>
-        <span>Noticias</span>
-        <span>Descargas</span>
-        <a href="./ingresar.html" >Ingresar</a>
+        <div class="encabezado">
+            <h1 class="title" id="titulo" >Videojuegos</h1>
+            <img class="imagen" src="./control.jpg" /> 
+        </div>
+        <div class="boton">
+            <span>Inicio</span>
+            <span>Noticias</span>
+            <span>Descargas</span> 
+            <a href="./ingresar.html" >Ingresar</a>
+        </div>
         <h2>Los videojuegos en 2024</h2>
       </header>
       <main>
         <section>
             <div>
-                <h3>Los Mejores videojuegos del 2024</h3>
+                <h3 class="title" >Los Mejores videojuegos del 2024</h3>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ex quam iusto, minus qui sint cum laboriosam, nostrum nobis accusantium vero atque rem pariatur omnis est enim voluptatem nisi? Fugiat.</p>
-                <ol>
-                    <li>Videojuego</li>
-                    <li>Videojuego</li>
-                    <li>Videojuego</li>
-                </ol>
+                <div class="caja">
+                     <div class="juegos">
+                            <h4>Videojuego</h4> 
+                            <img class=logo src="./LOL.png" />
+                        </div>
+                        <div class="juegos">
+                            <h4>Videojuego</h4> 
+                            <img class=logo src="Fort.png" />
+                        </div>
+                        <div class="juegos">
+                            <h4>Videojuego</h4>
+                            <img class=logo src="./Smite.png" />
+                        </div>
+                </div>
                 <article>
                     <h4>Estadísticas</h4>
                 </article>
@@ -36,24 +50,36 @@
         <hr />
         <section>
             <div>
-                <h3>Los peores videojuegos en 2024</h3>
+                <h3 class="title" >Los peores videojuegos en 2024</h3>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, hic, iure ut molestiae veniam eius at corrupti, accusamus explicabo quam quibusdam ea consequuntur blanditiis modi facere voluptatem magnam fuga architecto.</p>
-                <ol>
-                    <li>Videojuego</li>
-                    <li>Videojuego</li>
-                    <li>Videojuego</li>
-                </ol>  
+                <div class="caja">
+                        <div class="juegos">
+                            <h4>Videojuego</h4>
+                            <img class=logo src="./FF.png" />
+                        </div>
+                        <div class="juegos">
+                            <h4>Videojuego</h4> 
+                            <img class=logo src="./Paladins.png" />
+                        </div>
+                        <div class="juegos">
+                            <h4>Videojuego</h4>
+                            <img class=logo src="./DSpeedstorm.png" />
+                        </div>
+                </div>
                 <article>
                     <h4>Estadísticas</h4>
                 </article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, id inventore, similique rem illum, quod debitis suscipit mollitia vitae ex nobis quasi reiciendis animi placeat esse. Minima repellat ut odit.</p>
+
             </div>
         </section>
       </main>
       <footer>
-        <a href="">Redes sociales</a>
-        <a href="./contacto.html">Contacto</a>
+        <div class="boton">
+            <a href="">Redes sociales</a>
+            <a href="./contacto.html">Contacto</a>
+        </div>
       </footer>
    </body>
 </html>
